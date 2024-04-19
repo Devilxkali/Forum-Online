@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Général</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="categories">
+            <h2>Catégories</h2>
+            <a href="index.html" class="category selected">Général</a>
+            <a href="fruit.html" class="category">Fruit</a>
+            <a href="technology.html" class="category">Technologie</a>
+            <a href="sports.html" class="category">Sports</a>
+            <a href="agro.html" class="category">Agriculture</a>
+            <a href="info.html" class="category">Informatique</a>
+            <a href="espoir.html" class="category">Espoir</a>
+            <a href="amour.html" class="category">Amour</a>
+        </div>
+        <div class="chat" id="chat">
+            <h1>Chat Général</h1>
+            <div class="form-group">
+                <label for="username">Pseudo:</label>
+                <input type="text" id="username" placeholder="Entrez votre pseudo...">
+            </div>
+            <button id="join-button">Rejoindre</button>
+            <div id="message-area"></div>
+            <input type="text" id="message-input" placeholder="Entrez votre message..." disabled>
+            <button id="send-button" disabled>Envoyer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

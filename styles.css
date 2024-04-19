@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.categories {
+    background-color: #4CAF50;
+    color: white;
+    flex: 1;
+    padding: 20px;
+}
+
+.category {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.category:hover {
+    text-decoration: underline;
+}
+
+.chat {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.chat h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #6cb2eb;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message-area {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+#message-area div {
+    margin-bottom: 10px;
+}
+
+#message-input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message-input:focus {
+    outline: none;
+    border-color: #6cb2eb;
+}
+
+.general {
+    color: #000;
+}
+
+.fruit {
+    color: #FF5733;
+}
+
+.technology {
+    color: #007bff;
+}
+
+.sports {
+    color: #28a745;
+}
+.categories a {
+    display: block;
+    margin-bottom: 10px;
+}
